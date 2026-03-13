@@ -1,4 +1,4 @@
--- Global Config
+
 local repo_url = "https://raw.githubusercontent.com"
 
 -- Simple GUI Loader
@@ -44,6 +44,5 @@ Button.MouseButton1Click:Connect(function()
     else
         Button.Text = "Error!"
         warn("Load Error: " .. tostring(err))
-    end
-end)
-
+        end
+        
